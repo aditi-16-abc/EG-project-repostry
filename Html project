@@ -1,0 +1,135 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Engineering Graphics | CSE</title>
+<style>
+*{box-sizing:border-box;scroll-behavior:smooth}
+body{margin:0;font-family:Arial,sans-serif;background:#f2f6fc;color:#263747;line-height:1.7}
+header{background:linear-gradient(120deg,#102b46,#1976a5);color:white;padding:45px 7%;text-align:center}
+header h1{font-size:38px}
+nav{background:#123c60;padding:15px;text-align:center}
+nav a{color:white;text-decoration:none;margin:10px;display:inline-block}
+main{max-width:1000px;margin:auto;padding:20px}
+section{background:white;padding:25px;margin:20px 0;border-radius:12px;box-shadow:0 3px 12px #dce5ed}
+h2{color:#176b9a}
+.grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(210px,1fr));gap:15px}
+.card{background:#eaf4fa;padding:18px;border-radius:10px}
+.card h3{color:#14577e}
+.hero{font-size:18px}
+table{width:100%;border-collapse:collapse}
+td,th{border:1px solid #ccdce7;padding:10px;text-align:left}
+th{background:#eaf4fa}
+footer{background:#102b46;color:white;text-align:center;padding:25px}
+</style>
+</head>
+<body>
+
+<header id="home">
+<h1>ENGINEERING GRAPHICS</h1>
+<p class="hero">Learn the Art of Technical Drawing</p>
+<p>A Student-Friendly Learning Website | First Year CSE</p>
+</header>
+
+<nav>
+<a href="#about">Introduction</a>
+<a href="#tools">Instruments</a>
+<a href="#types">Projections</a>
+<a href="#applications">Applications</a>
+<a href="#aboutproject">About</a>
+</nav>
+
+<main>
+<section id="about">
+<h2>1. Introduction to Engineering Graphics</h2>
+<p>Engineering Graphics is the visual language of engineers. It is used to represent objects, structures and designs through technical drawings.</p>
+<p>It helps engineers communicate their ideas accurately using lines, symbols, dimensions and different projection methods.</p>
+<h3>Objectives</h3>
+<ul>
+<li>Develop visualisation skills.</li>
+<li>Understand technical drawings.</li>
+<li>Learn different projection methods.</li>
+<li>Improve drawing accuracy and creativity.</li>
+</ul>
+</section>
+
+<section id="tools">
+<h2>2. Drawing Instruments</h2>
+<div class="grid">
+<div class="card"><h3>Drawing Board</h3><p>Provides a flat surface for technical drawing.</p></div>
+<div class="card"><h3>T-Square</h3><p>Used to draw horizontal parallel lines.</p></div>
+<div class="card"><h3>Set Squares</h3><p>Used to draw standard angles such as 30°, 45° and 60°.</p></div>
+<div class="card"><h3>Compass</h3><p>Used to draw circles and arcs.</p></div>
+<div class="card"><h3>Divider</h3><p>Used to measure and transfer distances.</p></div>
+<div class="card"><h3>Scale</h3><p>Used to measure and represent dimensions.</p></div>
+</div>
+</section>
+
+<section id="types">
+<h2>3. Types of Engineering Projections</h2>
+<div class="grid">
+<div class="card">
+<h3>Orthographic Projection</h3>
+<p>Represents a 3D object through separate 2D views such as front, top and side views.</p>
+</div>
+<div class="card">
+<h3>Isometric Projection</h3>
+<p>Represents a three-dimensional object in a single pictorial view.</p>
+</div>
+<div class="card">
+<h3>Perspective Projection</h3>
+<p>Shows objects as they appear to the human eye, creating a realistic appearance.</p>
+</div>
+</div>
+<h3>Orthographic vs Isometric</h3>
+<table>
+<tr><th>Orthographic</th><th>Isometric</th></tr>
+<tr><td>Uses multiple 2D views.</td><td>Uses one 3D pictorial view.</td></tr>
+<tr><td>Shows detailed dimensions.</td><td>Helps visualise the overall shape.</td></tr>
+<tr><td>Used in manufacturing drawings.</td><td>Used for understanding 3D objects.</td></tr>
+</table>
+</section>
+
+<section id="applications">
+<h2>4. Applications of Engineering Graphics</h2>
+<div class="grid">
+<div class="card"><h3>Mechanical Engineering</h3><p>Machine parts and component designs.</p></div>
+<div class="card"><h3>Civil Engineering</h3><p>Building plans and structural drawings.</p></div>
+<div class="card"><h3>Architecture</h3><p>Building layouts and construction designs.</p></div>
+<div class="card"><h3>Computer-Aided Design</h3><p>Digital 2D drawings and 3D modelling.</p></div>
+<div class="card"><h3>Product Design</h3><p>Designing and developing new products.</p></div>
+<div class="card"><h3>Computer Science</h3><p>3D graphics, visualisation and simulation.</p></div>
+</div>
+</section>
+
+<section>
+<h2>5. Important Terms</h2>
+<ul>
+<li><b>Dimension:</b> Numerical measurement of an object.</li>
+<li><b>Scale:</b> Ratio between drawing size and actual size.</li>
+<li><b>Projection:</b> Representation of an object on a plane.</li>
+<li><b>Centre Line:</b> Indicates the centre or axis of an object.</li>
+<li><b>Drawing Plane:</b> Surface on which a drawing is represented.</li>
+</ul>
+</section>
+
+<section id="aboutproject">
+<h2>6. About This Project</h2>
+<p>This website is designed as an educational project for first-year Computer Science Engineering students.</p>
+<p>It introduces the fundamentals of Engineering Graphics in a simple and organised manner.</p>
+<p><b>Technologies Used:</b> HTML5 and CSS3</p>
+<p><b>Project:</b> Engineering Graphics Learning Website</p>
+<b>Created by: First-Year CSE Student</b>
+</section>
+</main>
+
+<footer>
+<h3>ENGINEERING GRAPHICS</h3>
+<p>Learn • Visualise • Design</p>
+<p>First Year CSE Educational Project</p>
+</footer>
+
+</body>
+</html>
